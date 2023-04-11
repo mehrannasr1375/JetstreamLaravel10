@@ -2,14 +2,14 @@
     <x-application-logo class="block h-12 w-auto" />
 
     <h1 class="mt-8 text-2xl font-medium text-gray-900">
-        Welcome to your Jetstream application!
+        به Jetstream خوش آمدید!
     </h1>
 
     <p class="mt-6 text-gray-500 leading-relaxed">
-        Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
-        to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe
-        you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
-        ecosystem to be a breath of fresh air. We hope you love it.
+        Laravel Jetstream یک نقطه شروع زیبا و قوی برای برنامه بعدی Laravel شما فراهم می کند. لاراول طراحی شده است
+        به شما کمک می کند تا برنامه خود را با استفاده از یک محیط توسعه ساده، قدرتمند و لذت بخش بسازید. ما معتقدیم
+        شما باید عاشق ابراز خلاقیت خود از طریق برنامه نویسی باشید، بنابراین ما زمان خود را صرف ساختن لاراول کرده ایم.
+        اکوسیستم هوای تازه باشد. امیدواریم دوستش داشته باشید.
     </p>
 </div>
 

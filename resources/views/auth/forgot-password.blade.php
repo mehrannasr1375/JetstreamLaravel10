@@ -4,8 +4,9 @@
             <x-authentication-card-logo />
         </x-slot>
 
-        <div class="mb-4 text-sm text-gray-600">
-            {{ __('Forgot your password? No problem. Just let us know your email address and we will email you a password reset link that will allow you to choose a new one.') }}
+        <div class="mb-4 text-base py-4 text-gray-600">
+            رمز عبور خود را فراموش کرده اید؟
+            آدرس ایمیلی که با آن در وبسایت ثبت نام نموده اید را وارد نمایید تا لینک بازیابی رمز عبور برای شما ارسال گردد.
         </div>
 
         @if (session('status'))
@@ -20,13 +21,13 @@
             @csrf
 
             <div class="block">
-                <x-label for="email" value="{{ __('Email') }}" />
+                <x-label for="email" value="آدرس ایمیل" />
                 <x-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
             </div>
 
-            <div class="flex items-center justify-end mt-4">
+            <div class="flex items-center justify-end mt-6">
                 <x-button>
-                    {{ __('Email Password Reset Link') }}
+                    ارسال ایمیل بازیابی رمز عبور
                 </x-button>
             </div>
         </form>

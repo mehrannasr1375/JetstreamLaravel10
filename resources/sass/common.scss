@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+// Variables
+@import 'variables';
+
+
+body{
+    direction: rtl!important;
+    font-family: iransans;
+}
